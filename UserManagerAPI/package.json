@@ -1,0 +1,29 @@
+{
+  "name": "user-manager-api",
+  "version": "0.1.0",
+  "description": "RESTful service for UserManager",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "e2e run",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diroro/WhoAreYou.git"
+  },
+  "author": "Dmitry Rogach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diroro/WhoAreYou/issues"
+  },
+  "homepage": "https://github.com/Diroro/WhoAreYou#readme"
+}
